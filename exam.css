@@ -1,0 +1,38 @@
+html{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color:aqua;
+}
+
+h3{
+    color: aqua;
+}
+
+ol{
+     color: rgb(250, 0, 250)
+    
+}
+
+ul{
+    color: lightpink
+}
+
+h1{
+    color: white;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
