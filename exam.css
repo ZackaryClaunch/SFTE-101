@@ -19,12 +19,13 @@ h3{
 }
 
 ol{
-     color: rgb(250, 0, 250)
-    
+     color: rgb(250, 0, 250);
+    padding: 20;
 }
 
 ul{
-    color: lightpink
+    color: lightpink;
+    margin: 80px;
 }
 
 h1{
