@@ -1,0 +1,96 @@
+html { 
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(gold,rgb(244, 240, 184))
+ }
+
+
+ img {
+    width: 300px;
+    height: 200px;
+}
+
+.navbar { 
+    background-color: rgb(255, 223, 43);
+    margin: 0%;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+
+}
+
+.navbar ul li{
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar a{
+    
+     color: black;
+     text-decoration: none;
+     display: block;
+}
+
+.navbar a:hover{
+    border: #000000;
+    border-style: solid;
+    /* background-color: rgb(0, 100, 252) */
+}
+
+.test {
+padding: 10px;
+display: flex;
+}
+
+.tesimonials {
+    flex: 1;
+}
+
+.cycle-slideshow {
+    
+}
+
+.PricingTable {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.PricingTable th {
+    padding: 0px 10px;
+    font-family:monospace;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.PricingTable td {
+    background-color: whitesmoke;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+  }
+  
+  .overlay-text {
+    position: relative;
+    color:gold;
+    background-color:black;
+  }
