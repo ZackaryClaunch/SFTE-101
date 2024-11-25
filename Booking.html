@@ -1,109 +1,130 @@
 <!DOCTYPE html>
-<html>
-    <style>table, tr, th, td {
-        border:1px solid black;
-    }</style>
-     <head>
-        <meta charset="UTF-8">
-
-        <title>Zackary Claunch-Index</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="jquery.js"></script>
-        <script src="cycle2.js"></script>
-
-    </head>
-
-    <body>
-
-            <h1>Radiant VALORANT Coaching</h1>
-            <div class="container">
-                <div class="overlay-text">
-                <p>With Zack AKA "Tisuri"</p>
-                </div>
-                <div class="image-container">
-                <img src="images/irontoradiant.jpg" alt="RankUp">
-                </div>
-                </div>
-            <nav class="navbar">
-                <ul>
-                <li><a href="index.html">Home</a></li>
-                
-                
-   <li> <a href="Achievements.html">Achievements</a>
-               <li> <a href="AboutMe.html">About Me</a></li>
-               <li> <a href="Contact.html">Contact</a></li>
-               <li> <a href="Booking.html">Book an Appointment</a></li>
-            </ul>
-            </nav>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     
-<hr>
-<form>
-    <label>Name
-        <input type="text" name="Name">
-    </label>
-    <br>
-    <br>
-    <label>Current Rank
-        <input type="text" name="Rank">
-    </label>
-    <br><br>
-    <label>Discord
-        <input type="text" name="discord">
-    </label>
-    <fieldset>
-    <label>How many sessions would you like to have?
-        <br>
-<input type="radio" id="0-2Hours"><label for="0-2Hours">1 Session</label><br>
-<input type="radio" id="2-5Hours"><label for="2-5Hours">2 Sessions </label><br>
-<input type="radio" id="5-10Hours"><label for="5-10Hours">3 Sessions</label><br>
-<input type="radio" id="10+Hours"><label for="10+Hours">4+ Sessions</label>
-    </fieldset>
-    <fieldset>
-        <label>How long do you want the sessions to be?
-            <br>
-<input type="radio" id="FPS"><label for="FPS">30 Minutes</label><br>
-<input type="radio" id="BattleRoyale"><label for="BattleRoyal">1 Hour</label><br>
-<input type="radio" id="SinglePlayer"><label for="Singleplayer">90 Minutes</label><br>
-<input type="radio" id="SoulsLike"><label for="SoulsLike">2 Hours</label><br>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radiant VALORANT Coaching - Zackary Claunch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="cycle2.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Radiant VALORANT Coaching</h1>
+            <div class="accent-line"></div>
+            <p class="lead">With Zack AKA "Tisuri"</p>
+        </div>
+    </div>
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Achievements.html">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AboutMe.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Booking.html">Book an Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <!-- Appointment Form -->
+    <div class="ApptColumns">
+        <div class="ApptCol-1">
+            <form>
+                <label>Name
+                    <input type="text" name="Name">
+                </label>
+                <br><br>
+                <label>Current Rank
+                    <input type="text" name="Rank">
+                </label>
+                <br><br>
+                <label>Discord
+                    <input type="text" name="discord">
+                </label>
+            </form>
+        </div>
+        <div class="ApptCol-2">
+            <form>
+                <fieldset>
+                    <label>How many sessions would you like to have?
+                        <br>
+                        <input type="radio" id="0-2Hours"><label for="0-2Hours">1 Session</label><br>
+                        <input type="radio" id="2-5Hours"><label for="2-5Hours">2 Sessions</label><br>
+                        <input type="radio" id="5-10Hours"><label for="5-10Hours">3 Sessions</label><br>
+                        <input type="radio" id="10+Hours"><label for="10+Hours">4+ Sessions</label>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+        <div class="ApptCol-3">
+            <form>
+                <fieldset>
+                    <label>How long do you want the sessions to be?
+                        <br>
+                        <input type="radio" id="FPS"><label for="FPS">30 Minutes</label><br>
+                        <input type="radio" id="BattleRoyale"><label for="BattleRoyal">1 Hour</label><br>
+                        <input type="radio" id="SinglePlayer"><label for="Singleplayer">90 Minutes</label><br>
+                        <input type="radio" id="SoulsLike"><label for="SoulsLike">2 Hours</label><br>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <form>
+        <label for="FavoriteTitles">What do you believe to be the biggest problems with your gameplay?
+            <textarea id="FavoriteTitles" name="FavoriteTitles"></textarea>
         </label>
-    </fieldset>
-    <label for="FavoriteTitles">What do you believe to be the biggest problems with your gameplay?
-        <textarea id="FavoriteTitles" name="FavoriteTitles"></textarea>
-    </label>
-    <br><br>
-    <input type="submit" value="Submit">
-    <p>Pricing</p>
-                <table class="PricingTable">
-                    <tr>
-                        <th>1 Session</th>
-                        <th>2 Sessions</th>
-                        <th>3 Sessions</th>
-                        <th>4 Sessions</th>
-                        <th>Weekly Sessions (minimum 3 weeks)</th>
-                        <th>Bi-Weekly Sessions (minimum 2 weeks)</th>
-                        
-                    </tr>
-                    <tr>
-                        <td>$40/hr</td>
-                        <td>$37/hr</td>
-                        <td>$35/hr</td>
-                        <td>$32/hr</td>
-                        <td>$30/hr</td>
-                        <td>$30/hr</td>
-                        
-                    </tr>
-                   
-                </table>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p class="pricing">Pricing</p>
+    <table class="PricingTable">
+        <tr>
+            <th>1 Session</th>
+            <th>2 Sessions</th>
+            <th>3 Sessions</th>
+            <th>4 Sessions</th>
+            <th>Weekly Sessions (minimum 3 weeks)</th>
+            <th>Bi-Weekly Sessions (minimum 2 weeks)</th>
+        </tr>
+        <tr>
+            <td>$40/hr</td>
+            <td>$37/hr</td>
+            <td>$35/hr</td>
+            <td>$32/hr</td>
+            <td>$30/hr</td>
+            <td>$30/hr</td>
+        </tr>
+    </table>
+
     <div class="cycle-slideshow">
         <img src="images/vandal.jpg" alt="vandal">
         <img src="images/irontoradiant.jpg" alt="itr">
         <img src="images/phantom.jpg" alt="phantom">
     </div>
-</form>
-        </body>
+
+    <!-- Footer -->
     <footer>
         <p>Copyright &copy; 2024, Zackary Claunch, All Rights Reserved</p>
     </footer>
-
+</body>
 </html>
