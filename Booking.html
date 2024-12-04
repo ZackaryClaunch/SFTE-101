@@ -46,54 +46,67 @@
  
     <div class="ApptColumns">
         <div class="ApptCol-1">
-            <form>
-                <label>Name
+            <div class="col-md-6">
+                <form>
+                    <label>Name</label>
                     <input type="text" name="Name">
-                </label>
-                <br><br>
-                <label>Current Rank
+                    <br><br>
+                    <label>Current Rank</label>
                     <input type="text" name="Rank">
-                </label>
-                <br><br>
-                <label>Discord
+                    <br><br>
+                    <label>Discord</label>
                     <input type="text" name="discord">
-                </label>
-            </form>
+                </form>
+            </div>
         </div>
+    
         <div class="ApptCol-2">
             <form>
                 <fieldset>
-                    <label>How many sessions would you like to have?
-                        <br>
-                        <input type="radio" id="0-2Hours"><label for="0-2Hours">1 Session</label><br>
-                        <input type="radio" id="2-5Hours"><label for="2-5Hours">2 Sessions</label><br>
-                        <input type="radio" id="5-10Hours"><label for="5-10Hours">3 Sessions</label><br>
-                        <input type="radio" id="10+Hours"><label for="10+Hours">4+ Sessions</label>
-                    </label>
+                    <label>How many sessions would you like to have?</label>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" id="0-2Hours"><label for="0-2Hours">1 Session</label><br>
+                            <input type="radio" id="2-5Hours"><label for="2-5Hours">2 Sessions</label><br>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" id="5-10Hours"><label for="5-10Hours">3 Sessions</label><br>
+                            <input type="radio" id="10+Hours"><label for="10+Hours">4+ Sessions</label>
+                        </div>
+                    </div>
                 </fieldset>
             </form>
         </div>
+    
         <div class="ApptCol-3">
             <form>
                 <fieldset>
-                    <label>How long do you want the sessions to be?
-                        <br>
-                        <input type="radio" id="FPS"><label for="FPS">30 Minutes</label><br>
-                        <input type="radio" id="BattleRoyale"><label for="BattleRoyal">1 Hour</label><br>
-                        <input type="radio" id="SinglePlayer"><label for="Singleplayer">90 Minutes</label><br>
-                        <input type="radio" id="SoulsLike"><label for="SoulsLike">2 Hours</label><br>
-                    </label>
+                    <label>How long do you want the sessions to be?</label>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="radio" id="FPS"><label for="FPS">30 Minutes</label><br>
+                            <input type="radio" id="BattleRoyale"><label for="BattleRoyale">1 Hour</label><br>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="radio" id="SinglePlayer"><label for="SinglePlayer">90 Minutes</label><br>
+                            <input type="radio" id="SoulsLike"><label for="SoulsLike">2 Hours</label><br>
+                        </div>
+                    </div>
                 </fieldset>
             </form>
         </div>
     </div>
+    
 
     <form>
-        <label for="FavoriteTitles">What do you believe to be the biggest problems with your gameplay?
-            <textarea id="FavoriteTitles" name="FavoriteTitles"></textarea>
-        </label>
+        <label for="FavoriteTitles">What do you believe to be the biggest problems with your gameplay?</label>
+           
+        <textarea id="FavoriteTitles" name="FavoriteTitles"></textarea>
+        
         <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="btn btn-custom">
     </form>
 
     <p class="pricing">Pricing</p>

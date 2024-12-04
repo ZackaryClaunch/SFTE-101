@@ -27,12 +27,12 @@ body {
 }
 
 .navbar {
-    background-color: #0F1923 !important;
+    background-color: #0F1923 ;
     border-bottom: 2px solid #FF4655;
 }
 
 .nav-link {
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
     transition: all 0.3s ease;
     text-transform: uppercase;
     font-weight: bold;
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #FF4655 !important;
+    color: #FF4655 ;
     transform: scale(1.05);
 }
 
@@ -167,19 +167,19 @@ form textarea {
 }
 
 .PricingTable th {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
+    background-color: var(#FF4655);
+    color: var(#FFFFFF);
 }
 
 .PricingTable td {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
+    background-color: var(#0F1923);
+    color: var(#FFFFFF);
 }
 
 
 input[type="submit"] {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
+    background-color: var(#FF4655);
+    color: var(#FFFFFF);
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
@@ -195,4 +195,17 @@ input[type="submit"]:hover {
 
 .pricing {
     margin: auto;
+}
+
+.Contact {
+width: 33%;
+}
+.AceImg {
+    float:right;
+    
+}
+
+textarea {
+    width: 900px;
+    height: 250px;
 }
